@@ -57,7 +57,6 @@ h2{
   width: 100%;
 }
 
-
 ul{
   background-color: firebrick;
   color: white;
@@ -65,7 +64,7 @@ ul{
   padding-bottom: 0.77rem;
   display: flex;
   justify-content: space-between;
-  width: 940px;
+  max-width: 940px;
   margin: 0 auto;
 }
 
@@ -96,9 +95,8 @@ align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  width: 960px;
   margin: 0 auto;
-  width: 960px;
+  max-width: 960px;
 }
 .size{
   height: 9rem;
@@ -115,8 +113,9 @@ align-items: center;
 .box2{
   color: white;
   background-color: black;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
 }
 .boxwrap{
   flex-direction: column;
@@ -128,7 +127,7 @@ align-items: center;
 .wrap2{
   display: flex;
   justify-content: space-between;
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 .wrapmom{
@@ -147,4 +146,24 @@ align-items: center;
 .footermom{
   width: 100%;
   background-color: black;
+}
+#tablet{
+  display: none;
+}
+
+@media only screen and (max-width: 1024px){
+.hide{
+  display: none;
+}
+#tablet{
+display: flex;
+margin: 0 auto;
+}
+#tabletglasses{
+display: none;
+}
+.box{
+  width: 47%;
+}
+
 }
