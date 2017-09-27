@@ -20,7 +20,7 @@ h2{
  padding-top: 0.66rem;
  padding-bottom: 0.66rem;
  align-items: center;
- width: 960px;
+ max-width: 960px;
  margin: 0 auto;
 }
  .headermom{
@@ -38,7 +38,7 @@ h2{
   background-color: black;
   color: white;
   flex-wrap: wrap;
-  width: 20rem;
+  max-width: 20rem;
   font-weight: bold;
   padding: 2rem 3rem;
 
@@ -138,7 +138,7 @@ align-items: center;
   color: white;
   background-color: black;
   height: 5rem;
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
   padding-top: 2.4rem;
   margin-top: 4rem;
@@ -165,5 +165,38 @@ display: none;
 .box{
   width: 47%;
 }
+}
+@media only screen and (max-width: 470px){
+body{
+  font-size: 0.77rem;
+}
+#watchmobilehide{
+  display: none;
+}
+#penmobile{
+width: 90%;
 
+}
+h2{
+font-size: 1rem;
+}
+h3{
+  font-size: 0.77rem;
+}
+.bike{
+  align-items: flex-end;
+}
+.logo{
+margin: 0 auto;
+}
+.wrap2{
+ margin: 0 auto;
+ flex-direction: column;
+}
+.boxwrap{
+width: 90%;
+}
+p{
+  text-align: center;
+}
 }
